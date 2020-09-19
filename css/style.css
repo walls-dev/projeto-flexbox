@@ -2,10 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 /*RESET*/
 *{margin:0; padding:0;font-size: 100%;box-sizing: border-box;font-family: 'Open Sans', sans-serif;}
-ul {list-style: none;}
+nav, ul {list-style: none;}
 a {text-decoration:none;cursor:pointer; opacity:0.9;}
 a:hover{opacity:1;}
 /*____________________________________________________*/
+/*PADRAO*/
+:root{
+    --cor0:;
+    --cor1:;
+    --cor2:;
+    --cor3:;
+    --cor4:; 
+    --cor5:;
+    
+    --fonte-padrao:'Open Sans', sans-serif;
+}
+
 header{
     background-color:red;
     width:100%;
@@ -14,5 +26,16 @@ header{
     left:0;
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    padding:20px 50px;
+}
+header img{width:200px;}
+header nav{display:flex;}
+header li{margin:0 15px;}
+header li:first-child{margin-left:0;}
+header li:last-child{margin-right:0;}
+header li a{color:#191c03;}
+@media (max-width:700px){
+    header {flex-direction:column;}
 }
 
