@@ -85,4 +85,9 @@ header li a{color:#191c03;}
 .caracteristicas .grid li p{color:#fff;}
 @media (max-width:850px){
     .caracteristicas .grid {flex-direction:column;}
-    }
+}
+/*NEWSLETTER*/
+.newsletter {display:flex;flex-direction:column;align-items: center;padding:100px 50px;}
+.newsletter h3{font-size:2rem;margin-bottom: 35px;color:#c3c63b;text-align:center;}
+.newsletter p{max-width:800px;margin-bottom: 35px;color:#c3c63b;text-align:center;}
+.newsletter hr{width:200px;height:2px; background-color:#c3c63b; margin-bottom:70px;border:none;}
