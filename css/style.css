@@ -5,15 +5,7 @@
 ul {list-style: none;}
 a {text-decoration:none;cursor:pointer; opacity:0.9;}
 a:hover{opacity:1;}
-:root{
-    --cor0:;
-    --cor1:;
-    --cor2:;
-    --cor3:;
-    --cor4:;
-    --cor5:;
-    --fonte-padrao:'Open Sans', sans-serif;
-}
+/*____________________________________________________*/
 header{
     background-color:red;
     width:100%;
