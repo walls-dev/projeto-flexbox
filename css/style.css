@@ -20,6 +20,7 @@ a:hover{opacity:1;}
 
 header{
     /*background-color:red;*//*SOMENTE PARA MARCAR POSICAO*/
+    background-color:#fff;
     width:100%;
     position:absolute;/*PARA O HEADER FICAR POR CIMA DA IMAGEM*/
     top:0;/* qdo colocamos absolute devemos definir o top e left*/
@@ -39,4 +40,17 @@ header li a{color:#191c03;}
     header {flex-direction:column;}
     header img {margin-bottom: 15px;}
 }
-
+/*HERO*/
+.hero{
+    background-image: url(../imagens/hero.jpg);
+    background-size:cover;
+    min-height:100vh;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.hero h1{font-size:3.2rem;margin-bottom:15px;}
+.hero h3{font-size:2rem;margin-bottom:15px;}
+.hero .btn{background-color:#fff; border-radius:4px; color:#191c03; padding:20px 50px;}
