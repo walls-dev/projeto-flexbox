@@ -12,5 +12,6 @@ header{
     position:absolute;/*PARA O HEADER FICAR POR CIMA DA IMAGEM*/
     top:0;/* qdo colocamos absolute devemos definir o top e left*/
     left:0;
+    display:flex;
 }
 
