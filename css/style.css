@@ -15,7 +15,7 @@ a:hover{opacity:1;}
     --fonte-padrao:'Open Sans', sans-serif;
 }
 header{
-    background-color:;
+    background-color:red;
     width:100%;
     position:absolute;/*PARA O HEADER FICAR POR CIMA DA IMAGEM*/
     top:0;/* qdo colocamos absolute devemos definir o top e left*/
