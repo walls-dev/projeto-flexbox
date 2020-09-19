@@ -59,3 +59,8 @@ header li a{color:#191c03;}
     .hero h1 {font-size:2.5rem;}
     .hero h3 {font-size:1.5rem;}
 }
+/*CONHEÇA O HOTEL*/
+.conheca-o-hotel{display:flex; flex-direction:column;align-items: center;padding:100px 50px;}
+.conheca-o-hotel h3{font-size:2rem;margin-bottom: 35px;color:#191c03;}
+.conheca-o-hotel p{max-width:800px;margin-bottom: 35px;color:#191c03;text-align:center;}
+.conheca-o-hotel hr{width:200px;height:2px; background-color:#191c03; margin-bottom:70px;}
