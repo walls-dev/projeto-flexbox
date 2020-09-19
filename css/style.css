@@ -13,5 +13,6 @@ header{
     top:0;/* qdo colocamos absolute devemos definir o top e left*/
     left:0;
     display:flex;
+    justify-content: space-between;
 }
 
